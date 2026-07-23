@@ -30,7 +30,7 @@ def main(args):
 
 def get_data(path):
     # function that reads the data from a file or a folder of CSV files
-    print("Reading data...")
+    print("Reading data....")
 
     if os.path.isdir(path):
         csv_files = glob.glob(os.path.join(path, "*.csv"))
@@ -133,3 +133,5 @@ if __name__ == "__main__":
     # add space in logs
     print("*" * 60)
     print("\n\n")
+
+    # comment added only for git change purpose
